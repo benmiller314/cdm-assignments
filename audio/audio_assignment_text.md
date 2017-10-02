@@ -14,6 +14,11 @@ As for where to begin?
 
 * An essay from a former class, perhaps: imagine your quotations really spoken by another person, or the music swelling as you land on your conclusion. 
 * Or take another piece you’ve written, whether poetry or prose, and give it voice.
+* If you can't think of anything else to try, pull the cord on one of these *parachute prompts*. **Please talk to me first,** though, as some of these are quite different from the default remediation approach:
+ * Record your own version of one of [Aesop's fables](http://read.gov/aesop/001.html), which are in the public domain
+ * Remix some archival materials of other people speaking, as per [Erin Anderson](http://erinand.com/projects.html), if you have can demonstrate permission to do so
+ * Compose a new essay in the style of [This I Believe](http://thisibelieve.org/guidelines)
+ 
 
 I won’t be judging the artistic merits of the piece, but rather how the piece adheres to or surpasses the criteria we develop as a class.
 
