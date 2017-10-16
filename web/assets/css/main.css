@@ -2917,18 +2917,19 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(../../images/banner.jpg);
+		background-image: url(../../images/dmitri-popov-253750.jpg);
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
+		text-shadow: #444 1px 1px;	/* Help text pop against background image */
 	}
 
 		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.85);
+			background: rgba(40, 40, 33, 0.40);	/* Darken background; overridden in .inner */
 			position: absolute;
 			width: 100%;
 			height: 100%;
@@ -2940,23 +2941,32 @@
 			border-top: 2px solid rgba(255, 255, 255, 0.2);
 			position: relative;
 			z-index: 10005;
-			padding-top: 8em;
+			padding: 5em 3em;
+			background: rgba(200, 200, 200, 0.30); /* Lighten inner box for better contrast*/
 		}
 
 		#banner h1 {
 			font-size: 3.5em;
-			font-weight: 400;
-			color: #fff;
+			font-weight: 800;
+			color: #a33344;
 			line-height: 1em;
 			margin: 0 0 1em 0;
 			padding: 0;
 		}
 
+		#banner h2 {
+			font-weight: 400
+			font-size: 2.5em;
+			line-height: 1.1em;
+			color: #fff;
+			margin: 0 0 1em 0;
+		}
+
 		#banner h3 {
 			font-weight: 400;
+			font-size: 1.5em;
 			color: #fff;
 			margin: 0;
-			font-size: 1.5em;
 		}
 
 		#banner .icon {
@@ -2965,8 +2975,9 @@
 		}
 
 		#banner p {
-			font-size: 1em;
-			color: rgba(255, 255, 255, 0.55);
+			font-size: 1.1em;
+			color: #222;
+			text-shadow: none;
 			margin-bottom: 1.75em;
 		}
 
