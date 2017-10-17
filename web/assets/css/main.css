@@ -1633,7 +1633,7 @@
 		}
 
 	a {
-		color: #6cc091;
+		color: #a33344;
 		text-decoration: underline;
 	}
 
@@ -1899,18 +1899,29 @@
 			justify-content: space-between;
 		}
 
-			.flex.flex-2 article {
+			.flex.flex-2 article, .flex.flex-2 div {
 				width: 50%;
+			}
+
+		.flex.flex-3 {
+			-moz-justify-content: space-between;
+			-webkit-justify-content: space-between;
+			-ms-justify-content: space-between;
+			justify-content: space-between;
+		}
+
+			.flex.flex-3 article, .flex.flex-3 div {
+				width: 33%;
 			}
 
 		@media screen and (max-width: 980px) {
 
-			.flex.flex-2 article {
+			.flex.flex-2 article, .flex.flex-3 article, .flex.flex-2 div, .flex.flex-3 div {
 				width: 100%;
 				margin-bottom: 3em;
 			}
 
-				.flex.flex-2 article:last-child {
+				.flex.flex-2 article:last-child, .flex.flex-3 article:last-child {
 					margin-bottom: 0;
 				}
 
@@ -2235,6 +2246,7 @@
 
 		.image.left {
 			float: left;
+			flex: 1 1 auto;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
 		}
@@ -2264,6 +2276,68 @@
 			.image.main img {
 				width: 100%;
 			}
+
+/* Image alongside text */
+  .flex .image.right {
+		flex: 1 1 auto;
+		padding: 0 0 1em 1.5em;
+	}
+
+	.flex .image.left {
+		flex: 1 1 auto;
+		padding: 0 1.5em 1em 0;
+	}
+
+/* Text alongside an image */
+	.flex .text.left {
+		padding: 0 1.5em 1em 0;
+		flex: 2 1 auto;
+	}
+
+	.flex .text.right {
+		padding: 0 1.5em 1em 0;
+		flex: 2 1 auto;
+	}
+
+/* detail section styling */
+	section#details {
+		color: #333;
+	}
+
+	section#details section {
+		padding: 6em 0 0;
+	}
+
+	/* contrasting footer text */
+	section#details footer {
+	    width: 100%;
+	    background-color: #333;
+	    color: #ccc;
+	    text-shadow: #111 1px 1px;
+	    line-height: 1em;
+	    text-align: center;
+	    padding: 1em;
+	}
+
+	section#details footer p {
+	    margin: 0;
+	}
+
+	section.slate-blue {
+    background-color: #88abaf;
+	}
+
+	section.salmon {
+    background-color: #c19b85;
+	}
+
+	section.moss {
+		background-color: #99b2a1;
+	}
+
+	section.slate-gray {
+		background-color: #9f9f9d;
+	}
 
 /* List */
 
@@ -2917,7 +2991,7 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(../../images/dmitri-popov-253750.jpg);
+		background-image: url(../../images/tiles--dmitri-popov-253750.jpg);
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
@@ -2982,18 +3056,18 @@
 		}
 
 		#banner .flex {
-			-ms-flex-pack: center;
-			-moz-justify-content: center;
-			-webkit-justify-content: center;
-			-ms-justify-content: center;
-			justify-content: center;
+			-ms-flex-pack: space-between;
+			-moz-justify-content: space-between;
+			-webkit-justify-content: space-between;
+			-ms-justify-content: space-between;
+			justify-content: space-between;
 			text-align: center;
 			margin: 0 auto 4em auto;
 		}
 
 			#banner .flex div {
 				border-right: 2px solid rgba(255, 255, 255, 0.2);
-				padding: 0 8em;
+				padding: 0 4em;
 			}
 
 				#banner .flex div:last-child {

@@ -23,7 +23,7 @@
 							<a href="#display">Display</a>
 							<a href="#reflection">Reflection</a>
 							<a href="#submission">Submission</a>
-							<a href="credits.html">Credits</a>
+							<a href="#footer">Credits</a>
 
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
@@ -35,98 +35,139 @@
 				<div class="inner">
 					<header>
 						<h1>Modern Web Design</h1>
-						<h2>is all about the separation of content from display.</h2>
-						<p>Accordingly, the project for this unit will involve separate, but interacting, components:
+						<h2>is all about the separation of content from display.<p>Accordingly, the project for this unit will involve separate, but interacting, components:</p>
+						</h2>
 					</header>
 
-					<div class="flex ">
+					<div class="flex flex-3">
 
 						<div>
 							<span class="icon fa-car"></span>
-							<h3>The Content Layer</h3>
+							<h3><a href="#content">The Content Layer</a></h3>
 							<p>Your pitch for a collaborative project, marked up as well-nested html</p>
 						</div>
 
 						<div>
 							<span class="icon fa-camera"></span>
-							<h3>The Display Layer</h3>
+							<h3><a href="#display">The Display Layer</a></h3>
 							<p>A visually appealing stylesheet, directing attention to key elements</p>
 						</div>
 
 						<div>
 							<span class="icon fa-bug"></span>
-							<h3>Ultrices</h3>
-							<p>Nulla vitae mauris non felis</p>
+							<h3><a href="#reflection">The Reflection</a></h3>
+							<p>A rationale for your design choices, and a look back at what you've learned</p>
 						</div>
 
 					</div>
 
 					<footer>
-						<a href="#" class="button">Get Started</a>
+						<p>I want to say it goes without saying now, but just to be clear: any assets you don't create yourself should be licensed for your use or, if under copyright, within your fair use rights to repurpose. Please do cite your sources!</p>
+
+						<a href="#details" class="button special">More Details Below</a>
 					</footer>
 				</div>
 			</section>
 
 
-		<!-- Three -->
-			<section id="three" class="wrapper align-center">
+		<!-- Details section -->
+		<section id="details">
+			<section id="content" class="flex slate-blue">
 				<div class="inner">
-					<div class="flex flex-2">
-						<article>
-							<div class="image round">
-								<img src="images/pic01.jpg" alt="Pic 01">
-							</div>
-							<header>
-								<h3>Lorem ipsum<br> dolor amet nullam</h3>
-							</header>
-							<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br>euismod in, pharetra a, ultricies in diam sed arcu. Cras<br>consequat  egestas augue vulputate.</p>
-							<footer>
-								<a href="#" class="button">Learn More</a>
-							</footer>
-						</article>
-						<article>
-							<div class="image round">
-								<img src="images/pic02.jpg" alt="Pic 02">
-							</div>
-							<header>
-								<h3>Sed feugiat<br> tempus adipicsing</h3>
-							</header>
-							<p>Pellentesque fermentum dolor. Aliquam quam lectus<br>facilisis auctor, ultrices ut, elementum vulputate, nunc<br> blandit ellenste egestagus commodo.</p>
-							<footer>
-								<a href="#" class="button">Learn More</a>
-							</footer>
-						</article>
+					<div class="image left">
+						<img src="images/group-project--noun_1327242_cc_medium.png" alt="group project proposal">
 					</div>
-				</div>
-			</section>
+						<header>
+							<h3>The Content Layer</h3>
+						</header>
+						<div class="text right">
+							<p>Your main content goal for this unit should be a <em>project pitch</em> for the collaborative unit to follow: some digital media project that will involve you and several classmates in composing something you could not achieve on your own.</p>
+							<p>It should include:
+								<ul>
+									<li>at least one human-readable html or Markdown document, conforming to the html5 standard;</li>
+									<li>at least one internal and one external hyperlink;</li>
+									<li>at least one image;</li>
+									<li>a reference to your stylesheet (see below).</li>
+								</ul>
+							</p>
+						</div>
+					</div> <!-- /.inner -->
+					<footer>
+						<p>Consider: what did you hope to make in this class that isn't yet on the syllabus?</p>
+					</footer>
+			</section> <!-- /#content -->
+			<section id="display" class="flex salmon">
+				<div class="inner">
+					<div class="image right">
+						<img src="images/layout--noun_774801_cc_medium.png" alt="website layout">
+					</div>
+					<div class="text left">
+						<header>
+							<h3>The Display Layer</h3>
+						</header>
+						<p>Use Cascading Style Sheets (CSS) to add visual appeal to your project pitch. You are welcome to begin with an open source stylesheet, such as an html5 template (e.g. from <a href="https://html5up.net">html5up.net</a> or <a href="https://templated.co">templated.co</a>) or framework (e.g. <a href="https://getbootstrap.com/">Bootstrap</a>).</p>
+						<p>If you do use a template, however, I'd like to see you introduce at least 3 new or modified rules, to demonstrate (and encourage) your understanding of how the CSS works.</p>
+					</div>
+				</div> <!-- /.inner -->
+				<footer>
+					<p>Consider: how do your favorite websites organize their content?
+					</p>
+				</footer>
+			</section> <!-- /#layout -->
+			<section id="reflection" class="flex moss">
+				<div class="inner">
+					<div class="image left">
+						<img src="images/reflection--noun_656072_cc_medium.png" alt="reflection"/>
+					</div>
+					<div class="text right">
+						<header>
+							<h3>The Reflection Layer</h3>
+						</header>
+						<p>In at least 500-800 words, reflect on the process of completing this project: What was new to you in designing this website? How do your CSS rules reflect the design principles (emphasis, contrast, alignment, etc) we've been thinking about all semester? What aspirational goals did you strive for?</p>
+					</div>
+				</div> <!-- /.inner -->
+				<footer>
+					<p>Consider: What have you learned in this unit about web design?</p>
+				</footer>
+			</section> <!-- /#reflection -->
+			<section id="submission" class="flex slate-gray">
+				<div class="inner">
+					<div class="image right">
+						<a href="https://github.com"><img src="images/GitHub-Mark-120px-plus.png" alt="github icon" title="go to github.com"/></a>
+					</div>
+					<div class="text left">
+						<header>
+							<h3>How to Submit</h3>
+						</header>
+						<p>Use GitHub to host your html and all the assets it depends on: images, css, js.</p>
+						<p>You can then activate GitHub pages using the Settings tab in your repository, which will make your pages visible.</p>
+						<p>When it's ready, post a link to your page on the issue queue for my class GitHub page: <a href="https://github.com/benmiller314/fall-2017/issues/3">https://github.com/benmiller314/fall-2017/issues/3</a>.</p>
+					</div>
+				</div> <!-- /.inner -->
+				<footer>
+					<p>You're starting to get the hang of this now, right?</p>
+				</footer>
+			</section> <!-- /#reflection -->
+		</section> <!-- /#details -->
 
-		<!-- Footer -->
+		<!-- Page Footer -->
 			<footer id="footer">
 				<div class="inner">
 
-					<h3>Get in touch</h3>
+					<div class="copyright align-left">
+						<h3>Credits</h3>
+						<p>Site stylesheet modified from <a href="https://templated.co/projection">"Projection"</a> by <a href="https://templated.co">TEMPLATED</a>,
+						released for free under the <a href="https://templated.co/license">Creative Commons Attribution 3.0 license</a>.</p>
 
-					<form action="#" method="post">
+						<p>Splash image: <a href="https://unsplash.com/photos/4wDPAZ9k8C4">"Tile, pattern, square and mosaic"</a> HD photo by
+						<a  href="https://unsplash.com/@dmpop?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+								title="Download free do whatever you want high-resolution photos from Dmitri Popov">
+								Dmitri Popov</a> (@dmpop) on Unsplash.</p>
 
-						<div class="field half first">
-							<label for="name">Name</label>
-							<input name="name" id="name" type="text" placeholder="Name">
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input name="email" id="email" type="email" placeholder="Email">
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
-						</div>
-						<ul class="actions">
-							<li><input value="Send Message" class="button alt" type="submit"></li>
-						</ul>
-					</form>
+						<p>Icons in top section by <a href="http://fontawesome.io/">FontAwesome</a>, licensed under the <a href="http://scripts.sil.org/OFL">SIL Open Font License 1.1</a>.</p>
+						<p>With the exception of the GitHub logo, <a href="https://github.com/logos">copyright GitHub 2017 and used with permission,</a> the icons in detail sections are all released for free under the Creative Commons Attribution 3.0 license: <a href="https://thenounproject.com/search/?q=project&i=1327242">"Collective Projects"</a> by <a href="https://thenounproject.com/vectorsmarket/">Vectors Market</a>; <a href="https://thenounproject.com/nl2bricons/collection/layouts/?oq=layout&cidx=0&i=774801">"Layout with Header, Sidebar and 2 Areas"</a> by <a href="https://thenounproject.com/nl2bricons/"Andreas (@nl2bricons)</a>; and <a href="https://thenounproject.com/search/?similar=114599&i=656072">"Thinking"</a> by <a href="https://thenounproject.com/corpusdelicti/">corpus delicti</a>.
 
-					<div class="copyright">
-						© Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+						<p>The resulting site – which you're viewing now! – was assembled by <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"> <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/benmiller314/cdm-assignments" property="cc:attributionName" rel="cc:attributionURL">Benjamin Miller</a>, and is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. <br /><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br /></p>
 					</div>
 
 				</div>
