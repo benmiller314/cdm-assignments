@@ -2338,6 +2338,28 @@
 	section.slate-gray {
 		background-color: #9f9f9d;
 	}
+	
+	/* contrasting extra details (e.g. for parachute prompt) */
+	section.slate-blue div.extra {
+		border: 1px solid #333;
+		padding: 2em 2em 0;
+		margin: 0 3em 1em;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		-webkit-box-shadow: #666 0px 2px 3px;
+		-moz-box-shadow: #666 0px 2px 3px;
+		box-shadow: #666 0px 2px 3px;
+		background: #88ABAF;
+		background: -webkit-gradient(linear, 0 0, 0 bottom, from(#afc7ca), to(#628e93));
+		background: -webkit-linear-gradient(#afc7ca, #628e93);
+		background: -moz-linear-gradient(#afc7ca, #628e93);
+		background: -ms-linear-gradient(#afc7ca, #628e93);
+		background: -o-linear-gradient(#afc7ca, #628e93);
+		background: linear-gradient(#afc7ca, #628e93);
+		-pie-background: linear-gradient(#afc7ca, #628e93);
+		behavior: url(/pie/PIE.htc);
+	}
 
 /* List */
 
@@ -3012,11 +3034,11 @@
 		}
 
 		#banner .inner {
-			border-top: 2px solid rgba(255, 255, 255, 0.2);
+/* 			border-top: 2px solid rgba(255, 255, 255, 0.2); */
 			position: relative;
 			z-index: 10005;
 			padding: 5em 3em;
-			background: rgba(200, 200, 200, 0.30); /* Lighten inner box for better contrast*/
+			background: rgba(200, 200, 200, 0.35); /* Lighten inner box for better contrast*/
 		}
 
 		#banner h1 {
@@ -3051,7 +3073,7 @@
 		#banner p {
 			font-size: 1.1em;
 			color: #222;
-			text-shadow: none;
+			text-shadow: rgba(200,200,200,0.4) 1px 1px 2px;
 			margin-bottom: 1.75em;
 		}
 
