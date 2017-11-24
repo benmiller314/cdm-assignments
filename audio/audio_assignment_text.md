@@ -26,6 +26,3 @@ A draft is due October 5th, and final projects – with reflections – Will be 
 
 Any questions? I’ll be listening. 
 
-----
-
-NB: If you have no previous piece of writing to translate, talk to me (some options might work better than you'd expect, with revision). If that conversation can't lead to something promising, you can try your hand at a new essay, in the style of [This I Believe](http://thisibelieve.org/guidelines/).
