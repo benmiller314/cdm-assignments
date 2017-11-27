@@ -2338,6 +2338,28 @@
 	section.slate-gray {
 		background-color: #9f9f9d;
 	}
+	
+	/* contrasting extra details (e.g. for parachute prompt) */
+	section.slate-blue div.extra {
+		border: 1px solid #333;
+		padding: 2em 2em 0;
+		margin: 0 3em 1em;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		-webkit-box-shadow: #666 0px 2px 3px;
+		-moz-box-shadow: #666 0px 2px 3px;
+		box-shadow: #666 0px 2px 3px;
+		background: #88ABAF;
+		background: -webkit-gradient(linear, 0 0, 0 bottom, from(#afc7ca), to(#628e93));
+		background: -webkit-linear-gradient(#afc7ca, #628e93);
+		background: -moz-linear-gradient(#afc7ca, #628e93);
+		background: -ms-linear-gradient(#afc7ca, #628e93);
+		background: -o-linear-gradient(#afc7ca, #628e93);
+		background: linear-gradient(#afc7ca, #628e93);
+		-pie-background: linear-gradient(#afc7ca, #628e93);
+		behavior: url(/pie/PIE.htc);
+	}
 
 /* List */
 
