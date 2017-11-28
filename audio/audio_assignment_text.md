@@ -1,6 +1,6 @@
 # Project Assignment for Audio Unit
 
-<larger>Something changes when words are spoken aloud.</larger>
+*Something changes when written words are spoken aloud.*
 
 You know this if you’ve ever had a message you thought was sincere misread as snarky, or if you’ve found yourself jerking back awake to pick up your sinking body as the lecturer drones on and on. On the page, those lecture notes, I’m sure, looked good. But for the ear? 
 
@@ -26,3 +26,9 @@ A draft is due October 5th, and final projects – with reflections – Will be 
 
 Any questions? I’ll be listening. 
 
+
+----
+
+An audio version of this prompt is available [on soundcloud](https://soundcloud.com/benmiller314/audio-remediation-assignment)), or can be downloaded as [unit-2-prompt-with-credits.mp3](https://github.com/benmiller314/cdm-assignments/blob/master/audio/unit-2-prompt-with-credits.mp3) on GitHub.
+
+Credits for samples within that audio are available in [CREDITS.md](https://github.com/benmiller314/cdm-assignments/blob/master/audio/CREDITS.md).
