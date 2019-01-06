@@ -1,3 +1,4 @@
 *.au filter=lfs diff=lfs merge=lfs -text
 *.xcf filter=lfs diff=lfs merge=lfs -text
 *.tgz filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
